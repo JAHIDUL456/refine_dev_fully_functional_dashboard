@@ -123,7 +123,7 @@ export default function PostList() {
             <tr key={post.id}>
               <td className="p-2 border">{post.id}</td>
               <td className="p-2 border">{post.title}</td>
-              <td className="p-2 border">
+              <td className="p-2 border flex gap-2">
                 <EditButton resource="posts" recordItemId={post.id} />
                 <DeleteButton resource="posts" recordItemId={post.id} />
               </td>

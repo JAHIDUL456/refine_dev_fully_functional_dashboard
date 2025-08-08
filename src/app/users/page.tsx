@@ -50,7 +50,7 @@ export default function UserList() {
               <td className="p-2 border">{user.id}</td>
               <td className="p-2 border">{user.name}</td>
               <td className="p-2 border">{user.email}</td>
-              <td className="p-2 border">
+              <td className="p-2 border flex gap-2">
                 <EditButton resource="users" recordItemId={user.id} />
                 <DeleteButton resource="users" recordItemId={user.id} />
               </td>
